@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(fon-1.jpg ) ;
+    background-repeat: no-repeat;
+}
+/* Здесь настрой стили, как нрав тебе */
+
+table {
+    border: 1px solid #F2F3F7;
+    position: absolute;
+    top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+   
+    padding: 0;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+td {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #F2F3F7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:whitesmoke;
+    line-height: 1.5;
+    margin: 0 0;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 18px;
+    ;
+    border-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.hover-image-scale {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+  }
+  .hover-image-scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+  }
+  .hover-image-scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+       
+
+#back {
+    
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    
+}
+a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    transition: 0.2s linear;
+    
+}
+
+
+
+
